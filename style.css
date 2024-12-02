@@ -1,10 +1,8 @@
 /********************************** 
-* Design by:  [your name]
-* Design name:  [your design name]
+* Design by:  [Joshua Simoneau]
+* Design name:  [The Future of Design...]
 * 
-* License: [license name - e.g. MIT if you want to let others
-* use the design with attribution, or All Rights Reserved if you
-* don't want others to use the design]
+* License: [All Rights Reserved]
 * 
 * Acknowledgments/Sources:
 * - 
@@ -16,22 +14,22 @@
 
 /* Typography */
 
-/* Get your own import URL from Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-.page-wrapper {
-  /* Main font */
-  font-family: Poppins, sans-serif;
+/* Protest-revolution from Google Fonts */
+@font-face {
+  font-family: RUN;
+  src: url(Protest-Revolution-Regular.ttf);
 }
+
+.iacs::before {
+  content: "Join the Following...";
+  font-family: RUN;
+} 
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-  /* Header font */
-  font-family: "Dancing Script", cursive;
-}
+
 
 /* Background */
 #css-zen-garden {

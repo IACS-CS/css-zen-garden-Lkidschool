@@ -16,13 +16,13 @@
 
 /* Protest-revolution from Google Fonts */
 @font-face {
-  font-family: RUN;
-  src: url(Protest-Revolution-Regular.ttf);
+  font-family:protest;
+  src: url(ProtestRevolution-Regular.ttf);
 }
 
 .iacs::before {
   content: "Join the Following...";
-  font-family: RUN;
+  font-family:protest;
 } 
 h1,
 h2,

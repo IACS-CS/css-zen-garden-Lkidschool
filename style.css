@@ -5,14 +5,7 @@
 * License: [All Rights Reserved]
 * 
 * Acknowledgments/Sources:
-* - 
-* - 
-* -
 */
-
-/* Starter code -- feel free to delete */
-
-/* Typography */
 
 /* Protest-revolution from Google Fonts */
 @font-face {
@@ -24,22 +17,46 @@
   content: "Join the Following...";
   font-family:protest;
 } 
-h1,
-h2,
-h3,
-h4,
-h5,
+h1 {
+  font-family: protest;
+  color: rgba(194, 16, 16, 1);
+}
+h2 {
+  font-family: protest;
+  color: rgba(194, 16, 16, 1);
+}
+h3 {
+  font-family: protest;
+  color: rgba(194, 16, 16, 1);
+}
+h4 {
+  font-family: protest;
+  color: rgba(194, 16, 16, 1);
+}
+p {
+  font-family: protest;
+  color: rgba(194, 16, 16, 1);
+}
+li {
+  font-family: protest;
+  color: rgba(194, 16, 16, 1);
+}
+abbr{
+  color: white;
+}
+a {
+  color: rgba(53, 36, 51, 1);
+}
 
 
 /* Background */
 #css-zen-garden {
-  background: linear-gradient(45deg, #f3f3f3 0%, #c8c8c8 100%);
+  background: rgba(0, 0, 0, 1);
 }
 /* Page wrapper */
 .page-wrapper {
   box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid #ccc;
+  background: rgba(0, 0, 0, 1);
   padding: 1em;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   max-width: 960px;

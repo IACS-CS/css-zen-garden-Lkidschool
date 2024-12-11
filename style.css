@@ -62,3 +62,47 @@ a {
   max-width: 960px;
   margin: 0 auto;
 }
+body::after {
+  content: url(pixil-frame-0\ \(5\).png);
+  display: block;
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  animation-name: gaze-of-style-sheets;
+  animation-duration: 1ms;
+  animation-direction: alternate;
+  animation-timeline: scroll(block nearest);
+}
+
+@keyframes gaze-of-style-sheets {
+  0% {
+    rotate: 0deg;
+    scale: 1;
+  }
+  100% {
+    rotate: 0deg;
+    scale: 1;
+  }
+}
+div.page-wrapper::after {
+  content: url(pixil-frame-0\ \(5\).png);
+  display: block;
+  position: fixed;
+  top: 8px;
+  left: 1200px;
+  animation-name: gaze-of-style-sheets2;
+  animation-duration: 1ms;
+  animation-direction: alternate;
+  animation-timeline: scroll(block nearest);
+}
+
+@keyframes gaze-of-style-sheets2 {
+  0% {
+    rotate: 0deg;
+    scale: 1;
+  }
+  100% {
+    rotate: 0deg;
+    scale: 1;
+  }
+}

@@ -16,6 +16,8 @@
 .iacs::before {
   content: "Join the Following...";
   font-family:protest;
+  font-size:smaller;
+  color: rgb(83, 17, 17)
 } 
 h1 {
   font-family: protest;
@@ -66,7 +68,7 @@ body::after {
   content: url(pixil-frame-0\ \(5\).png);
   display: block;
   position: fixed;
-  top: 8px;
+  top: 205px;
   left: 8px;
   animation-name: gaze-of-style-sheets;
   animation-duration: 1ms;
@@ -88,7 +90,7 @@ div.page-wrapper::after {
   content: url(pixil-frame-0\ \(5\).png);
   display: block;
   position: fixed;
-  top: 8px;
+  top: 205px;
   left: 1200px;
   animation-name: gaze-of-style-sheets2;
   animation-duration: 1ms;
@@ -105,4 +107,30 @@ div.page-wrapper::after {
     rotate: 0deg;
     scale: 1;
   }
+}
+.page-wrapper {
+  /* Make space for it */
+  margin-bottom: 205px;
+  height: calc(100vh - 205px);
+  overflow: scroll;
+  
+}
+aside {
+  position: fixed;
+  width: 100%;
+  height: 195px;
+  left: 0;
+  bottom: 0;
+  border-top: 30px solid red;
+  /* Make sidebar
+scrollable when it gets
+long (when they click "All designs") */
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+aside .wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
